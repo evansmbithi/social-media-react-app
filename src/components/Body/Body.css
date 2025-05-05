@@ -49,13 +49,41 @@
     color: #fff;
 }
 
-.about-user{
-    padding: .6rem;
-}
-
 .left-pane,
 .right-pane{
     display: flex;
     flex-direction: column;
     gap: .5rem;
+}
+
+.profile-summary .cover-image{
+    height: 10rem;
+    background: no-repeat center url("./../../img/OIP.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.profile-summary .profile-photo{
+    position: absolute;
+    width: 7rem;
+    bottom: -2rem;
+    left: 0;
+}
+
+.profile-summary ul{
+    list-style: none;
+    display: flex;
+}
+
+.profile-summary li {
+    margin: 1rem;
+}
+
+.profile-summary button{
+    border: none;
+    background-color: transparent;
+}
+
+.about-user{
+    padding: .6rem;
 }
