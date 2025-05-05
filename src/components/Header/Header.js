@@ -10,7 +10,7 @@ function Header(){
                 <NavPane />    
                 <HeaderButtons />                     
             </div>
-            <hr /> 
+            <hr className="header-hr" /> 
               
 
         </React.Fragment>
