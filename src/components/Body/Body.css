@@ -1,3 +1,27 @@
 .container{
-    
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+
 }
+
+.post-input{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+}
+
+.post-input input{
+    border-color:cyan ;
+    padding: .5rem;
+}
+
+
+.feed img{
+    width: 4rem;
+}
+
+.single-post img.profile-pic{
+    float: left;
+}
+

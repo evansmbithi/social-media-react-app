@@ -8,9 +8,9 @@ function Body(){
     return (
         <React.Fragment>
             <div className="container">
-                <LeftPane />
+                {/* <LeftPane /> */}
                 <Feed />
-                <RightPane />
+                {/* <RightPane /> */}
             </div>            
         </React.Fragment>
     )

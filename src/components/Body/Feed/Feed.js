@@ -1,11 +1,14 @@
 import "./../Body.css"
 import React from "react"
+import PostInput from "./PostInput"
+import PostList from "./PostList"
 
 function Feed(){
     return (
-        <React.Fragment>
-
-        </React.Fragment>
+        <div className="feed">
+            <PostInput />
+            <PostList />
+        </div>
     )
 }
 
