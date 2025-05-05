@@ -10,7 +10,7 @@ function Body(){
             <div className="container">
                 {/* <LeftPane /> */}
                 <Feed />
-                {/* <RightPane /> */}
+                <RightPane />
             </div>            
         </React.Fragment>
     )

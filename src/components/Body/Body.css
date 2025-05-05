@@ -1,6 +1,7 @@
 .container{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+    gap: .5rem;
 
 }
 
@@ -16,12 +17,37 @@
     padding: .5rem;
 }
 
+.feed,
+.friends-list,
+.profile-summary,
+.about-user{
+    border: solid 1px #7d7b7b;
+}
 
-.feed img{
+.post-input img,
+.single-post img.profile-pic,
+.single-friend img.profile-pic{
+    float: left;
     width: 4rem;
 }
 
-.single-post img.profile-pic{
-    float: left;
+.friends-list{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
 }
+
+.single-friend,
+.single-post{
+    padding: .5rem;
+}
+
+.single-friend button{
+    background-color: #0077ff;
+    border: none;
+    padding: .3rem;
+    color: #fff;
+}
+
+
 
