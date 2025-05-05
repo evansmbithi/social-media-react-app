@@ -4,9 +4,9 @@ import FriendsList from "./FriendsList"
 
 function RightPane(){
     return (
-        <React.Fragment>
+        <div className="right-pane">
             <FriendsList />
-        </React.Fragment>
+        </div>
     )
 }
 

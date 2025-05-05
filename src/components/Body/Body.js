@@ -8,7 +8,7 @@ function Body(){
     return (
         <React.Fragment>
             <div className="container">
-                {/* <LeftPane /> */}
+                <LeftPane />
                 <Feed />
                 <RightPane />
             </div>            

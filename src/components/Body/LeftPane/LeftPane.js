@@ -5,10 +5,10 @@ import AboutUser from "./AboutUser"
 
 function LeftPane(){
     return (
-        <React.Fragment>
+        <div className="left-pane">
             <ProfileSummary />
             <AboutUser />
-        </React.Fragment>
+        </div>
     )
 }
 
